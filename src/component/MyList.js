@@ -1,6 +1,8 @@
+//El que hice con ayuda de Dios, Google y YouTube
+
 import React, { useEffect, useState } from "react";
 
-const List = () => {
+const List2 = () => {
     const [newTask, setNewTask] = useState ("Get MERN balck belt");
     const [isReady, setIsReady] = useState (false);
     const [tasks, setTasks] = useState ([]);
@@ -67,4 +69,4 @@ const List = () => {
 
 }
 
-export default List;
+export default List2;
